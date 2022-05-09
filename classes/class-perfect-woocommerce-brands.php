@@ -1025,6 +1025,14 @@ class Perfect_Woocommerce_Brands {
 	 *  Better search experience
 	 */
 	public function search_by_brand_name( $query ) {
+
+		// Return if better search has been disabled.
+		if( get_option( 'wc_pwb_admin_tab_tools_enable_better_search' ) != 'yes' ) {
+			return;
+		}
+
+		// return;
+
 		if ( wp_doing_ajax() ) {
 			return;
 		}

@@ -228,6 +228,13 @@ class Pwb_Admin_Tab {
 						'desc' => __( 'Show system status', 'perfect-woocommerce-brands' ),
 						'id'   => 'wc_pwb_admin_tab_tools_system_status',
 					),
+					'brands_better_search' => array(
+						'name' => __( 'Enable better search experience', 'perfect-woocommerce-brands' ),
+						'type'    => 'checkbox',
+						'default' => 'yes',
+						'desc'    => __( 'Enable the better search experience functionality', 'perfect-woocommerce-brands' ),
+						'id'      => 'wc_pwb_admin_tab_tools_enable_better_search',
+					),
 					'section_end'          => array(
 						'type' => 'sectionend',
 						'id'   => 'wc_pwb_admin_tab_section_tools_end',

@@ -1,12 +1,12 @@
 <?php
 
 /**
- *  Plugin Name: Perfect Brands for WooCommerce
+ *  Plugin Name: Tavux - Perfect Brands for WooCommerce
  *  Plugin URI: https://quadlayers.com/portfolio/perfect-woocommerce-brands/
- *  Description: Perfect WooCommerce Brands allows you to show product brands in your WooCommerce based store.
+ *  Description: Fork of the great Perfect WooCommerce Brands allows you to show product brands in your WooCommerce based store.
  *  Version: 2.0.8
- *  Author: QuadLayers
- *  Author URI: https://quadlayers.com
+ *  Author: tavux
+ *  Author URI: https://tavux.fi
  *  Text Domain: perfect-woocommerce-brands
  *  Domain Path: /lang
  *  License: GPLv3
